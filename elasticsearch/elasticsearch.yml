@@ -1,0 +1,5 @@
+cluster.name: elasticsearch-cluster
+node.name: node1
+# разные ноды с одним и тем же названием кластера, в рамках одной сети, объединяются в кластер
+discovery.type: single-node
+network.host: 0.0.0.0
